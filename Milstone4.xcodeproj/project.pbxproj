@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20D55A5C18E3210400B9DF6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D55A5B18E3210400B9DF6E /* Foundation.framework */; };
+		20D55A5E18E3210400B9DF6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D55A5D18E3210400B9DF6E /* CoreGraphics.framework */; };
+		20D55A6018E3210400B9DF6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D55A5F18E3210400B9DF6E /* UIKit.framework */; };
+		20D55A6618E3210400B9DF6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20D55A6418E3210400B9DF6E /* InfoPlist.strings */; };
+		20D55A6818E3210400B9DF6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D55A6718E3210400B9DF6E /* main.m */; };
+		20D55A6C18E3210400B9DF6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D55A6B18E3210400B9DF6E /* AppDelegate.m */; };
+		20D55A6F18E3210400B9DF6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D55A6D18E3210400B9DF6E /* Main.storyboard */; };
+		20D55A7218E3210400B9DF6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D55A7118E3210400B9DF6E /* ViewController.m */; };
+		20D55A7418E3210400B9DF6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D55A7318E3210400B9DF6E /* Images.xcassets */; };
+		20D55A7B18E3210400B9DF6E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D55A7A18E3210400B9DF6E /* XCTest.framework */; };
+		20D55A7C18E3210400B9DF6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D55A5B18E3210400B9DF6E /* Foundation.framework */; };
+		20D55A7D18E3210400B9DF6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D55A5F18E3210400B9DF6E /* UIKit.framework */; };
+		20D55A8518E3210400B9DF6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20D55A8318E3210400B9DF6E /* InfoPlist.strings */; };
+		20D55A8718E3210400B9DF6E /* Milstone4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D55A8618E3210400B9DF6E /* Milstone4Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20D55A7E18E3210400B9DF6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20D55A5018E3210400B9DF6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20D55A5718E3210400B9DF6E;
+			remoteInfo = Milstone4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20D55A5818E3210400B9DF6E /* Milstone4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Milstone4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D55A5B18E3210400B9DF6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20D55A5D18E3210400B9DF6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20D55A5F18E3210400B9DF6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20D55A6318E3210400B9DF6E /* Milstone4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Milstone4-Info.plist"; sourceTree = "<group>"; };
+		20D55A6518E3210400B9DF6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20D55A6718E3210400B9DF6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20D55A6918E3210400B9DF6E /* Milstone4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Milstone4-Prefix.pch"; sourceTree = "<group>"; };
+		20D55A6A18E3210400B9DF6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20D55A6B18E3210400B9DF6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20D55A6E18E3210400B9DF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20D55A7018E3210400B9DF6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20D55A7118E3210400B9DF6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20D55A7318E3210400B9DF6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20D55A7918E3210400B9DF6E /* Milstone4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Milstone4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D55A7A18E3210400B9DF6E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		20D55A8218E3210400B9DF6E /* Milstone4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Milstone4Tests-Info.plist"; sourceTree = "<group>"; };
+		20D55A8418E3210400B9DF6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20D55A8618E3210400B9DF6E /* Milstone4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Milstone4Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20D55A5518E3210400B9DF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D55A5E18E3210400B9DF6E /* CoreGraphics.framework in Frameworks */,
+				20D55A6018E3210400B9DF6E /* UIKit.framework in Frameworks */,
+				20D55A5C18E3210400B9DF6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D55A7618E3210400B9DF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D55A7B18E3210400B9DF6E /* XCTest.framework in Frameworks */,
+				20D55A7D18E3210400B9DF6E /* UIKit.framework in Frameworks */,
+				20D55A7C18E3210400B9DF6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20D55A4F18E3210400B9DF6E = {
+			isa = PBXGroup;
+			children = (
+				20D55A6118E3210400B9DF6E /* Milstone4 */,
+				20D55A8018E3210400B9DF6E /* Milstone4Tests */,
+				20D55A5A18E3210400B9DF6E /* Frameworks */,
+				20D55A5918E3210400B9DF6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20D55A5918E3210400B9DF6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20D55A5818E3210400B9DF6E /* Milstone4.app */,
+				20D55A7918E3210400B9DF6E /* Milstone4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20D55A5A18E3210400B9DF6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D55A5B18E3210400B9DF6E /* Foundation.framework */,
+				20D55A5D18E3210400B9DF6E /* CoreGraphics.framework */,
+				20D55A5F18E3210400B9DF6E /* UIKit.framework */,
+				20D55A7A18E3210400B9DF6E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20D55A6118E3210400B9DF6E /* Milstone4 */ = {
+			isa = PBXGroup;
+			children = (
+				20D55A6A18E3210400B9DF6E /* AppDelegate.h */,
+				20D55A6B18E3210400B9DF6E /* AppDelegate.m */,
+				20D55A6D18E3210400B9DF6E /* Main.storyboard */,
+				20D55A7018E3210400B9DF6E /* ViewController.h */,
+				20D55A7118E3210400B9DF6E /* ViewController.m */,
+				20D55A7318E3210400B9DF6E /* Images.xcassets */,
+				20D55A6218E3210400B9DF6E /* Supporting Files */,
+			);
+			path = Milstone4;
+			sourceTree = "<group>";
+		};
+		20D55A6218E3210400B9DF6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20D55A6318E3210400B9DF6E /* Milstone4-Info.plist */,
+				20D55A6418E3210400B9DF6E /* InfoPlist.strings */,
+				20D55A6718E3210400B9DF6E /* main.m */,
+				20D55A6918E3210400B9DF6E /* Milstone4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20D55A8018E3210400B9DF6E /* Milstone4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				20D55A8618E3210400B9DF6E /* Milstone4Tests.m */,
+				20D55A8118E3210400B9DF6E /* Supporting Files */,
+			);
+			path = Milstone4Tests;
+			sourceTree = "<group>";
+		};
+		20D55A8118E3210400B9DF6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20D55A8218E3210400B9DF6E /* Milstone4Tests-Info.plist */,
+				20D55A8318E3210400B9DF6E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20D55A5718E3210400B9DF6E /* Milstone4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D55A8A18E3210400B9DF6E /* Build configuration list for PBXNativeTarget "Milstone4" */;
+			buildPhases = (
+				20D55A5418E3210400B9DF6E /* Sources */,
+				20D55A5518E3210400B9DF6E /* Frameworks */,
+				20D55A5618E3210400B9DF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Milstone4;
+			productName = Milstone4;
+			productReference = 20D55A5818E3210400B9DF6E /* Milstone4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20D55A7818E3210400B9DF6E /* Milstone4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D55A8D18E3210400B9DF6E /* Build configuration list for PBXNativeTarget "Milstone4Tests" */;
+			buildPhases = (
+				20D55A7518E3210400B9DF6E /* Sources */,
+				20D55A7618E3210400B9DF6E /* Frameworks */,
+				20D55A7718E3210400B9DF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20D55A7F18E3210400B9DF6E /* PBXTargetDependency */,
+			);
+			name = Milstone4Tests;
+			productName = Milstone4Tests;
+			productReference = 20D55A7918E3210400B9DF6E /* Milstone4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20D55A5018E3210400B9DF6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Abbas H Safaie";
+				TargetAttributes = {
+					20D55A7818E3210400B9DF6E = {
+						TestTargetID = 20D55A5718E3210400B9DF6E;
+					};
+				};
+			};
+			buildConfigurationList = 20D55A5318E3210400B9DF6E /* Build configuration list for PBXProject "Milstone4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20D55A4F18E3210400B9DF6E;
+			productRefGroup = 20D55A5918E3210400B9DF6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20D55A5718E3210400B9DF6E /* Milstone4 */,
+				20D55A7818E3210400B9DF6E /* Milstone4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20D55A5618E3210400B9DF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D55A7418E3210400B9DF6E /* Images.xcassets in Resources */,
+				20D55A6618E3210400B9DF6E /* InfoPlist.strings in Resources */,
+				20D55A6F18E3210400B9DF6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D55A7718E3210400B9DF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D55A8518E3210400B9DF6E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20D55A5418E3210400B9DF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D55A7218E3210400B9DF6E /* ViewController.m in Sources */,
+				20D55A6C18E3210400B9DF6E /* AppDelegate.m in Sources */,
+				20D55A6818E3210400B9DF6E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D55A7518E3210400B9DF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D55A8718E3210400B9DF6E /* Milstone4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20D55A7F18E3210400B9DF6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20D55A5718E3210400B9DF6E /* Milstone4 */;
+			targetProxy = 20D55A7E18E3210400B9DF6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20D55A6418E3210400B9DF6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D55A6518E3210400B9DF6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20D55A6D18E3210400B9DF6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D55A6E18E3210400B9DF6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20D55A8318E3210400B9DF6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D55A8418E3210400B9DF6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20D55A8818E3210400B9DF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20D55A8918E3210400B9DF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20D55A8B18E3210400B9DF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Milstone4/Milstone4-Prefix.pch";
+				INFOPLIST_FILE = "Milstone4/Milstone4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20D55A8C18E3210400B9DF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Milstone4/Milstone4-Prefix.pch";
+				INFOPLIST_FILE = "Milstone4/Milstone4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		20D55A8E18E3210400B9DF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Milstone4.app/Milstone4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Milstone4/Milstone4-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Milstone4Tests/Milstone4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		20D55A8F18E3210400B9DF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Milstone4.app/Milstone4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Milstone4/Milstone4-Prefix.pch";
+				INFOPLIST_FILE = "Milstone4Tests/Milstone4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20D55A5318E3210400B9DF6E /* Build configuration list for PBXProject "Milstone4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D55A8818E3210400B9DF6E /* Debug */,
+				20D55A8918E3210400B9DF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D55A8A18E3210400B9DF6E /* Build configuration list for PBXNativeTarget "Milstone4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D55A8B18E3210400B9DF6E /* Debug */,
+				20D55A8C18E3210400B9DF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20D55A8D18E3210400B9DF6E /* Build configuration list for PBXNativeTarget "Milstone4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D55A8E18E3210400B9DF6E /* Debug */,
+				20D55A8F18E3210400B9DF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20D55A5018E3210400B9DF6E /* Project object */;
+}
