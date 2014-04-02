@@ -21,6 +21,12 @@
 		20D55A7D18E3210400B9DF6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D55A5F18E3210400B9DF6E /* UIKit.framework */; };
 		20D55A8518E3210400B9DF6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20D55A8318E3210400B9DF6E /* InfoPlist.strings */; };
 		20D55A8718E3210400B9DF6E /* Milstone4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D55A8618E3210400B9DF6E /* Milstone4Tests.m */; };
+		20D55A9218E3248A00B9DF6E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D55A9118E3248A00B9DF6E /* DetailViewController.m */; };
+		20D55A9318E3248A00B9DF6E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D55A9118E3248A00B9DF6E /* DetailViewController.m */; };
+		20D55A9618E3B12300B9DF6E /* PhoneBookEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D55A9518E3B12300B9DF6E /* PhoneBookEntry.m */; };
+		20D55A9718E3B12300B9DF6E /* PhoneBookEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D55A9518E3B12300B9DF6E /* PhoneBookEntry.m */; };
+		20D55A9A18E3B17300B9DF6E /* DirectoryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D55A9918E3B17300B9DF6E /* DirectoryEntry.m */; };
+		20D55A9B18E3B17300B9DF6E /* DirectoryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D55A9918E3B17300B9DF6E /* DirectoryEntry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		20D55A8218E3210400B9DF6E /* Milstone4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Milstone4Tests-Info.plist"; sourceTree = "<group>"; };
 		20D55A8418E3210400B9DF6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20D55A8618E3210400B9DF6E /* Milstone4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Milstone4Tests.m; sourceTree = "<group>"; };
+		20D55A9018E3248A00B9DF6E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		20D55A9118E3248A00B9DF6E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		20D55A9418E3B12300B9DF6E /* PhoneBookEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneBookEntry.h; sourceTree = "<group>"; };
+		20D55A9518E3B12300B9DF6E /* PhoneBookEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneBookEntry.m; sourceTree = "<group>"; };
+		20D55A9818E3B17300B9DF6E /* DirectoryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryEntry.h; sourceTree = "<group>"; };
+		20D55A9918E3B17300B9DF6E /* DirectoryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryEntry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,12 @@
 				20D55A6A18E3210400B9DF6E /* AppDelegate.h */,
 				20D55A6B18E3210400B9DF6E /* AppDelegate.m */,
 				20D55A6D18E3210400B9DF6E /* Main.storyboard */,
+				20D55A9418E3B12300B9DF6E /* PhoneBookEntry.h */,
+				20D55A9818E3B17300B9DF6E /* DirectoryEntry.h */,
+				20D55A9918E3B17300B9DF6E /* DirectoryEntry.m */,
+				20D55A9518E3B12300B9DF6E /* PhoneBookEntry.m */,
+				20D55A9018E3248A00B9DF6E /* DetailViewController.h */,
+				20D55A9118E3248A00B9DF6E /* DetailViewController.m */,
 				20D55A7018E3210400B9DF6E /* ViewController.h */,
 				20D55A7118E3210400B9DF6E /* ViewController.m */,
 				20D55A7318E3210400B9DF6E /* Images.xcassets */,
@@ -249,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D55A9A18E3B17300B9DF6E /* DirectoryEntry.m in Sources */,
 				20D55A7218E3210400B9DF6E /* ViewController.m in Sources */,
+				20D55A9618E3B12300B9DF6E /* PhoneBookEntry.m in Sources */,
 				20D55A6C18E3210400B9DF6E /* AppDelegate.m in Sources */,
 				20D55A6818E3210400B9DF6E /* main.m in Sources */,
+				20D55A9218E3248A00B9DF6E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				20D55A8718E3210400B9DF6E /* Milstone4Tests.m in Sources */,
+				20D55A9718E3B12300B9DF6E /* PhoneBookEntry.m in Sources */,
+				20D55A9B18E3B17300B9DF6E /* DirectoryEntry.m in Sources */,
+				20D55A9318E3248A00B9DF6E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

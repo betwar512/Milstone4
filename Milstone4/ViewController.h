@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
+@class DetailViewController;
 
 @interface ViewController : UIViewController
+<UITableViewDataSource, DetailViewControllerDelegate>
+
+
+
+@property DetailViewController *detailViewController;
+@property NSMutableArray*elements;
+@property DirectoryEntry* entry;
+@property UITableView * myTableView;
 
 @end
